@@ -1,6 +1,6 @@
 [package]
 name = "smn_web_site"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A simple site for the SMN project"
 license = "MIT"
@@ -10,4 +10,4 @@ tokio = { version = "1", features = ["full"] }
 hyper = { version = "0.14", features = ["server", "tcp", "http1"] }
 async-trait = "0.1"
 
-smn_web_core = "0.1.1"
+smn_web_core = "0.1.2"
